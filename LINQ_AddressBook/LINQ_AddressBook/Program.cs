@@ -44,6 +44,9 @@ namespace LINQ_AddressBook
             //Retrieve based on city or state
             string var3 = dataTableManger.RetrieveBasedOnCityorState("Bareilly", "UP");
             Console.WriteLine("Success" + varl);
+            //count based on city or state
+            string var4 = dataTableManger.RetrieveCountBasedOnCityorState();
+            Console.WriteLine("Success" + varl);
         }
     }
 }
