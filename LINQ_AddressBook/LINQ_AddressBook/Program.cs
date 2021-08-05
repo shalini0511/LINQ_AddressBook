@@ -38,6 +38,9 @@ namespace LINQ_AddressBook
             //Modify
             int varl = dataTableManger.EditDataTable("lalita", "Lastname");
             Console.WriteLine("Success" + varl);
+            //Delete
+            int var2 = dataTableManger.DeleteRowInDataTable("lalita");
+            Console.WriteLine("Success" + varl);
         }
     }
 }
